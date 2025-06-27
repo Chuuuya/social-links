@@ -23,7 +23,7 @@ body {
 
 .container {
     width: 25rem;
-    margin: 7rem auto;
+    margin: 0.2rem auto;
     padding: 20px;
     border-radius: 20px;
     background-color: var(--Grey800);
