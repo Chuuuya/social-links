@@ -1,0 +1,102 @@
+:root {
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey700: hsl(0, 0%, 20%);
+    --Grey800: hsl(0, 0%, 12%);
+    --Grey900: hsl(0, 0%, 8%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: var(--Grey900);
+}
+
+
+.container {
+    width: 25rem;
+    margin: 7rem auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: var(--Grey700);
+}
+
+.header {
+    width: 350px;
+    margin: auto;
+    padding: 1rem 7%;
+    display: inline-bl;
+    background-color: var(--Grey700);
+}
+
+.header img {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.header h1 {
+    text-align: center;
+    line-height: 2;
+    color: var(--White);
+}
+
+.header h2 {
+    text-align: center;
+    font-size: small;
+    color: var(--Green);
+}
+
+.header h3 {
+    text-align: center;
+    font-size: small;
+    line-height: 5;
+    font-weight: 100;
+    color: var(--White);
+}
+
+.content {
+    width: 350px;
+    margin: auto;
+    margin-top: -10px;
+}
+
+.content .github,
+.frontend,
+.linkedin,
+.twitter,
+.instagram {
+    width: 300px;
+    margin: 10px auto;
+    padding: 14px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    font-weight: 900;
+    background-color: var(--Grey800);
+    color: var(--White);
+}
+
+.content a:hover {
+    background-color: var(--Green);
+    color: var(--Grey700);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
