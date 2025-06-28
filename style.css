@@ -70,11 +70,7 @@ body {
     margin-top: -10px;
 }
 
-.content .github,
-.frontend,
-.linkedin,
-.twitter,
-.instagram {
+.content a {
     width: 300px;
     margin: 10px auto;
     padding: 14px;
